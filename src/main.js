@@ -35,7 +35,7 @@ async function init() {
     controlButtons: ['fullscreen'],
     cameraFov: 80,
     rotateSpeed: -2.5,
-    viewIndicator: true,
+    viewIndicator: false,
   });
   setupWheelZoom(viewer);
   viewer.add(panorama);
